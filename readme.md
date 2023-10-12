@@ -8,7 +8,7 @@
 
 VSCodium on käytännössä versio Microsoftin Visual Studio Codesta, josta on mahdollisuuksien mukaan poistettu käyttäjän yksityisyyttä rikkovia ominaisuuksia kuten telemetriaa. 
 
-Käytännössä VSCodium on olemassa, jotta ihmisten ei tarvitse itse ladata ja buildata telemetriatonta versiota Visual Studio Codesta.
+Käytännössä VSCodium on olemassa, jotta ihmisten ei tarvitse itse ladata ja kääntää telemetriatonta versiota Visual Studio Codesta.
 
 
 ### Toimintaperiaate
@@ -28,15 +28,36 @@ Siihen voi asentaa lisäosilla esimerkiksi syntaksinväritys- ja debuggaustuen o
 
 ## Lisenssi
 
-Lorem ipsum
+
+- Visual Studio Coden lähdekoodilla [MIT-lisenssi](https://github.com/VSCodium/vscodium/blob/master/LICENSE)
+- Microsoftin jakaman ohjelmatiedoston (.exe, .app jne.) [lisenssi](https://code.visualstudio.com/License/) ei ole avoin
+    - Microsoftin Visual Studio Marketplacesta hankittujen lisäosien käyttö VSCodiumissa rikkoo periaatteessa lisenssiä
+    - Jotkin Microsoftin kehittämistä laajennuksista (esim. C#- ja C++\-lisäosien debuggeri) eivät toimi kuin Visual Studio Codessa.
+- VSCodiumin skripteillä tuotettu ohjelmatiedosto sen sijaan on lisensoitu MIT-lisenssillä
 
 Note: This will only appear in the speaker notes window.
 
 
 
-### Aktiivisuus ja ylläpito
+## Aktiivisuus ja ylläpito
 
-Content 1.2
+
+### Historia
+
+- Visual Studio Coden ensimmäinen versio julkaistiin 29.4.2015 
+- Lähdekoodi saataville GitHubiin 18.11.2015
+- VSCodiumin ensimmäinen julkaisu 15.8.2018
+
+
+### Aktiivisuus
+
+- Päivityksiä tulee suunnilleen viikoittain. Viimeisin julkaistu versio 1.83.0.23283 julkaistiin 10.11.2023.
+- Microsoftin julkaistessa päivityksen Visual Studio Codeen VSCodiumin GitHub-repossa oleva skripti kloonaa VSCoden repon, kääntää ohjelman ja lataa tuotetut ohjelmatiedostot GitHubiin
+
+
+### Ylläpito
+
+VSCodiumia ylläpitää yhteisö vapaaehtoisia kehittäjiä, jotka ovat listattuina projektin GitHub-sivulla.
 
 
 
