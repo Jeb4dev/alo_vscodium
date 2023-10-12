@@ -59,6 +59,7 @@ Jos muutoksesi hyväksytään, ne lisätään osaksi VSCodium projektia.
 
 ## Tekninen toteutus
 
+
 ### Kielet
 
 - TypeScript, JavaScript, HTML, CSS
