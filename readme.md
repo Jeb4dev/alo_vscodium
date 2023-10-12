@@ -18,7 +18,11 @@ Lorem ipsum
 
 ### Käyttökohteet
 
-Lorem ipsum
+VSCodiumia voidaan käyttää samalla tavalla kuin VSCodea, eli koodieditorina ja kehitysympäristönä eri ohjelmointikielille ja alustoille. 
+
+VSCodiumin vahvuus on sen monipuolisuus ohjelmistotuotannossa.
+
+Siihen voi asentaa lisäosilla esimerkiksi syntaksinväritys- ja debuggaustuen ohjelmointikielille, jota se ei ennestään tue.
 
 
 
