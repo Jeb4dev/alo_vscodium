@@ -42,17 +42,18 @@ Content 1.2
 
 ## Osallistuminen projektiin
 
-- **Contribution Model:** [Miten projektiin voi osallistua? Onko olemassa tiettyjä rooleja tai vastuita?]
-    - VSCodium-projekti noudattaa avointa ja yhteisöllistä osallistumismallia, jossa kuka tahansa voi ehdottaa muutoksia tai parannuksia projektin lähdekoodiin tai dokumentaatioon.
+### Contribution Model
+
+VSCodium-projekti noudattaa avointa ja yhteisöllistä osallistumismallia, jossa kuka tahansa voi ehdottaa muutoksia tai parannuksia projektin lähdekoodiin tai dokumentaatioon.
 
 
-- **Osallistumisen Menettelytavat:** [Kuinka voit osallistua projektiin?]
+### Osallistumisen Menettelytavat
 
-    Jos haluat osallistua projektiin sinun täytyy kloonata ensin VSCodium-repositorio omalle tietokoneellesi. Sitten voit tehdä haluamasi muutokset projektin lähdekoodiin.
+Jos haluat osallistua projektiin sinun täytyy kloonata ensin VSCodium-repositorio omalle tietokoneellesi. Sitten voit tehdä haluamasi muutokset projektin lähdekoodiin.
 
-    Kun muutokset ovat valmiit, voit lähettää pull-requestin jossa kuvailet tekemäsi muutokset ja pyydät niiden hyväksymistä master branchiin. 
+Kun muutokset ovat valmiit, voit lähettää pull-requestin jossa kuvailet tekemäsi muutokset ja pyydät niiden hyväksymistä master branchiin. 
 
-    Jos muutoksesi hyväksytään, ne lisätään osaksi VSCodium projektia.
+Jos muutoksesi hyväksytään, ne lisätään osaksi VSCodium projektia.
 
 
 
