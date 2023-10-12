@@ -54,7 +54,58 @@ Content 3.1
 
 ## Asennus ja käyttöönotto
 
-Content 3.2
+[Kuinka valittu projekti saadaan toimimaan ja kuinka se käännetään lähdekoodista? Tarvittaessa lisää vaiheittaiset ohjeet.]
+- Jos haluat saddgtsd (jatkan  tätä lausetta kohta xd)
+
+
+### Linux:
+
+(tarviiks tähä alaselitykse tai jtn)
+
+
+**Asentaminen snapilla:**
+
+VSCodium löytyy Snap Storesta Codium nimellä. Jos GNU/Linux jakelusi tukee snap:iä:
+
+```snap install codium --classic```
+
+
+**Asentaminen Parrot OSlla:**
+
+VSCodium on valmiiksi asennettuna Parrot OSssa. Jos sitä ei jostain syystä ole valmiina, niin voit löytää sen virallisesta reposta:
+
+```sudo apt update && sudo apt install codium```
+
+**miau**
+
+
+### Mac:
+
+**Asentaminen Brewillä:**
+
+```brew install --cask vscodium```
+
+Jos käytät Mac OS C Mojativeä ja näet tekstin *App can't be opened because Apple cannot check it for malicous software*, kun avaat VSCodiumin ensimmäistä kertaa, niin klikkaa hiiren oikeaa näppäintä ja valitse *Open*. Tämän pitäisi olla välttämätöntä vain Mojave käyttäjillä!
+
+
+### Windows: 
+
+(tarviiks jonku ala otsakkeee hä???)
+
+
+**Asentaminen Windows Package Managerilla:**
+
+```winget install vscodium```
+
+**Asentaminen Chocolateylla:**
+
+```choco install vscodium```
+
+**Asentaminen Scoopilla:**
+
+```scoop bucket add extras```
+
+```scoop install vscodium```
 
 
 
