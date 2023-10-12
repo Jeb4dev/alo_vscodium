@@ -4,14 +4,11 @@
 
 
 
-## Yleistä
+### Ohjelmointiin suunnattu tekstieditori
 
-Lorem ipsum
+VSCodium on käytännössä versio Microsoftin Visual Studio Codesta, josta on mahdollisuuksien mukaan poistettu käyttäjän yksityisyyttä rikkovia ominaisuuksia kuten telemetriaa. 
 
-
-### Kuvaus
-
-Lorem ipsum
+Käytännössä VSCodium on olemassa, jotta ihmisten ei tarvitse itse ladata ja buildata telemetriatonta versiota Visual Studio Codesta.
 
 
 ### Toimintaperiaate
