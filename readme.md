@@ -59,16 +59,18 @@ Jos muutoksesi hyväksytään, ne lisätään osaksi VSCodium projektia.
 
 ## Tekninen toteutus
 
-- **Kielet:** [Mainitse käytetyt ohjelmointikielet]
-    - TypeScript, JavaScript, HTML, CSS
-    - Joitakin Rust-tiedostoja
-    - VSCodiumin repossa shell-skriptejä ja yksi XSLT-tiedosto
-- **Protokollat:** [Mainitse käytetyt protokollat]
-    - Language Server Protocol, [Microsoftin](https://microsoft.github.io/language-server-protocol/) alunperin VS Codea varten kehittämä protokolla, jonka on tarkoitus helpottaa esim. syntaksivärityksen kaltaisten ominaisuuksien kehittämistä eri kielille
-- **Välineet:** [Mainitse tärkeimmät käytetyt työkalut ja resurssit]
-    - Electron, ohjelmistokehys työpöytäsovellusten tekoon käyttäen HTML:a, CSS:ä ja JavaScriptiä
-    - Chromium, verkkoselain
-    - Node.js, JavaScript-palvelin
+### Kielet
+- TypeScript, JavaScript, HTML, CSS
+- Joitakin Rust-tiedostoja
+- VSCodiumin repossa shell-skriptejä ja yksi XSLT-tiedosto
+
+### Protokollat
+- Language Server Protocol, [Microsoftin](https://microsoft.github.io/language-server-protocol/) alunperin VS Codea varten kehittämä protokolla, jonka on tarkoitus helpottaa esim. syntaksivärityksen kaltaisten ominaisuuksien kehittämistä eri kielille
+
+### Välineet
+- Electron, ohjelmistokehys työpöytäsovellusten tekoon käyttäen HTML:a, CSS:ä ja JavaScriptiä
+- Chromium, verkkoselain
+- Node.js, JavaScript-palvelin
 
 
 
