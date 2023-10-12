@@ -1,34 +1,63 @@
-# Markdown Demo
+# VSCodium
+![VSCodium logo](https://vscodium.com/img/codium_cnl.svg)
+
+
+## Yleistä
+
+Lorem ipsum
+
+
+### Kuvaus
+
+Lorem ipsum
+
+
+### Toimintaperiaate
+
+Lorem ipsum
+
+
+### Käyttökohteet
+
+Lorem ipsum
 
 
 
-## External 1.1
+## Lisenssi
 
-Content 1.1
+Lorem ipsum
 
 Note: This will only appear in the speaker notes window.
 
 
-## External 1.2
+
+### Aktiivisuus ja ylläpito
 
 Content 1.2
 
 
 
-## External 2
+## Osallistuminen projektiin
 
 Content 2.1
 
 
 
-## External 3.1
+## Tekninen toteutus
 
 Content 3.1
 
 
-## External 3.2
+
+## Asennus ja käyttöönotto
 
 Content 3.2
+
+
+
+## RevealJS käyttöohjeet
+
+Rivinvaihtojen määrällä on väliä: alaotsikoita vai uusia slideoita
 
 
 ## External 3.3 (Image)
