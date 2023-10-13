@@ -16,7 +16,7 @@ Käytännössä VSCodium on olemassa, jotta ihmisten ei tarvitse itse ladata ja 
 
 ### Toimintaperiaate
 
-VSCodium on hyvin samanlainen kuin VSCode. Kummatkin ovat koodin editointia varten ja VSCodium sisältää ne osat jotka ovat täysin avoimia 
+VSCodium on hyvin samanlainen kuin VSCode. Kummatkin ovat koodin editointia varten ja VSCodium sisältää siitä ne osat, jotka ovat lisenssiltään täysin avoimia.
 
 
 ### Käyttökohteet
