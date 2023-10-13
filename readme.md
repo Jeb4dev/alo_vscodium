@@ -106,30 +106,30 @@ Language Server Protocol, [Microsoftin](https://microsoft.github.io/language-ser
 VSCodiumin voi kääntää Microsoftin Visual Studio Code Repista myös halutessaan itse ([Microsoftin ohje](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run)). Se ei ole kuitenkaan tarpeellista.
 
 
-### Linux:
+### GNU/Linux
 
 (tarviiks tähä alaselitykse tai jtn)
 
 
-**Asentaminen snapilla:**
+### Asentaminen snapilla:
 
 VSCodium löytyy Snap Storesta Codium nimellä. Jos GNU/Linux jakelusi tukee snap:iä:
 
 ```snap install codium --classic```
 
 
-**Asentaminen Parrot OSlla:**
+### Asentaminen Parrot OSlla 
 
 VSCodium on valmiiksi asennettuna [Parrot OS](https://www.parrotsec.org/)ssa. Jos sitä ei jostain syystä ole valmiina, niin voit löytää sen virallisesta reposta:
 
 ```sudo apt update && sudo apt install codium```
 
-**miau**
+### miau
 
 
-### Mac:
+### Mac
 
-**Asentaminen Brewillä:**
+#### Asentaminen Brewillä
 
 ```brew install --cask vscodium```
 
@@ -138,18 +138,16 @@ Jos käytät Mac OS C Mojativeä ja näet tekstin *App can't be opened because A
 
 ### Windows: 
 
-(tarviiks jonku ala otsakkeee hä???)
 
-
-**Asentaminen Windows Package Managerilla:**
+#### Asentaminen Windows Package Managerilla:
 
 ```winget install vscodium```
 
-**Asentaminen Chocolateylla:**
+#### Asentaminen Chocolateylla:
 
 ```choco install vscodium```
 
-**Asentaminen Scoopilla:**
+#### Asentaminen Scoopilla:
 
 ```scoop bucket add extras```
 
