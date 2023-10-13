@@ -11,12 +11,10 @@
 
 VSCodium on käytännössä versio Microsoftin Visual Studio Codesta, josta on mahdollisuuksien mukaan poistettu käyttäjän yksityisyyttä rikkovia ominaisuuksia kuten telemetriaa. 
 
-Käytännössä VSCodium on olemassa, jotta ihmisten ei tarvitse itse ladata ja kääntää telemetriatonta versiota Visual Studio Codesta.
-
 
 ### Toimintaperiaate
 
-VSCodium on hyvin samanlainen kuin VSCode. Kummatkin ovat koodin editointia varten ja VSCodium sisältää siitä ne osat, jotka ovat lisenssiltään täysin avoimia.
+VSCodium on hyvin samanlainen kuin VSCode. VSCodium sisältää siitä ne osat, jotka ovat lisenssiltään täysin avoimia. Käytännössä se on olemassa, jotta ihmisten ei tarvitse itse ladata ja kääntää telemetriatonta versiota Visual Studio Codesta.
 
 
 ### Käyttökohteet
