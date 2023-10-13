@@ -110,12 +110,10 @@ Language Server Protocol, [Microsoftin](https://microsoft.github.io/language-ser
 ## Asennus ja käyttöönotto
 
 
-VSCodiumin voi kääntää Microsoftin Visual Studio Code Repista myös halutessaan itse ([Microsoftin ohje](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run)). Se ei ole kuitenkaan tarpeellista.
+VSCodiumin voi kääntää Microsoftin Visual Studio Code Reposta myös halutessaan itse ([Microsoftin ohje](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run)). Se ei ole kuitenkaan tarpeellista.
 
 
 ### GNU/Linux
-
-(tarviiks tähä alaselitykse tai jtn)
 
 
 ### Asentaminen snapilla
@@ -165,6 +163,7 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
     | sudo tee /etc/apt/sources.list.d/vscodium.list
 ``````
 
+
 Päivitä ja asenna VSCodium:
 
 ```sudo apt update && sudo apt install codium```
@@ -175,6 +174,7 @@ Päivitä ja asenna VSCodium:
 Lisää GPG avain repoon:
 
 ```sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg```
+
 
 Lisää repo:
 
@@ -187,6 +187,7 @@ Lisää repo:
     ```printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=gitlab.com_paulcarroty_vscodium_repo\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/zypp/repos.d/vscodium.repo```
 
 Asenna ohjelma: 
+
 
 - Fedora/RHEL/CentOS/Rocky Linux:
 
@@ -217,6 +218,7 @@ tai avaamalla [flatpakref](https://dl.flathub.org/repo/appstream/com.vscodium.co
 
 
 ### Mac
+
 
 #### Asentaminen Brewillä
 
