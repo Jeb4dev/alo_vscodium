@@ -103,8 +103,7 @@ Language Server Protocol, [Microsoftin](https://microsoft.github.io/language-ser
 
 ## Asennus ja käyttöönotto
 
-[Kuinka valittu projekti saadaan toimimaan ja kuinka se käännetään lähdekoodista? Tarvittaessa lisää vaiheittaiset ohjeet.]
-- Jos haluat saddgtsd (jatkan  tätä lausetta kohta xd)
+VSCodiumin voi kääntää Microsoftin Visual Studio Code Repista myös halutessaan itse ([Microsoftin ohje](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run)). Se ei ole kuitenkaan tarpeellista.
 
 
 ### Linux:
@@ -121,7 +120,7 @@ VSCodium löytyy Snap Storesta Codium nimellä. Jos GNU/Linux jakelusi tukee sna
 
 **Asentaminen Parrot OSlla:**
 
-VSCodium on valmiiksi asennettuna Parrot OSssa. Jos sitä ei jostain syystä ole valmiina, niin voit löytää sen virallisesta reposta:
+VSCodium on valmiiksi asennettuna [Parrot OS](https://www.parrotsec.org/)ssa. Jos sitä ei jostain syystä ole valmiina, niin voit löytää sen virallisesta reposta:
 
 ```sudo apt update && sudo apt install codium```
 
