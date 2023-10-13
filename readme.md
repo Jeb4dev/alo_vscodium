@@ -229,7 +229,7 @@ tai avaamalla [flatpakref](https://dl.flathub.org/repo/appstream/com.vscodium.co
 Jos käytät Mac OS C Mojativeä ja näet tekstin *App can't be opened because Apple cannot check it for malicous software*, kun avaat VSCodiumin ensimmäistä kertaa, niin klikkaa hiiren oikeaa näppäintä ja valitse *Open*. Tämän pitäisi olla välttämätöntä vain Mojave käyttäjillä!
 
 
-### Windows: 
+### Windows
 
 
 #### Asentaminen Windows Package Managerilla:
