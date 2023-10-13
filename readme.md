@@ -207,7 +207,13 @@ Asenna ohjelma:
     ```sudo emerge -av vscodium```
 
 
-### miau
+### Flatpak
+
+VSCodium (epävirallisesti) saatavilla [FLatpak](https://flathub.org/apps/com.vscodium.codium) sovelluksena ([repo](https://github.com/flathub/com.vscodium.codium)). Jos jakelusi tukee flatpakkiä ja käytät [flathub repoa](https://flatpak.org/setup/) niin voit asentaa VSCodiumin komentoriviltä:
+
+```flatpak install flathub com.vscodium.codium```
+
+tai avaamalla [flatpakref](https://dl.flathub.org/repo/appstream/com.vscodium.codium.flatpakref)in Flathubista. VSCodium löytyy myös GNOME Softwaresta jos sinulla on ```gnome-software-plugin-flatpak``` asennettuna.
 
 
 ### Mac
