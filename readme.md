@@ -139,11 +139,10 @@ VSCodium löytyy Nixpkgsistä. Voit asentaa sen lisäämällä ```vscodium```  `
 
 VSCodium on saatavilla [AUR](https://aur.archlinux.org/packages/vscodium-bin)issa (Arch User Reposity) ja sen voi asentaa AUR Helperillä.
 
-- Aura:
+#### Aura:
 
 ```sudo aura -A vscodium-bin```
-
-- Yay
+#### Yay:
 
 ```yay -S vscodium-bin```
 
