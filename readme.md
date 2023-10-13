@@ -2,9 +2,12 @@
 
 ![VSCodium logo](https://vscodium.com/img/codium_cnl.svg)
 
+##### Ohjelmointiin suunnattu vapaa tekstieditori
 
 
-### Ohjelmointiin suunnattu tekstieditori
+
+### Yleistä
+
 
 VSCodium on käytännössä versio Microsoftin Visual Studio Codesta, josta on mahdollisuuksien mukaan poistettu käyttäjän yksityisyyttä rikkovia ominaisuuksia kuten telemetriaa. 
 
@@ -29,13 +32,17 @@ Siihen voi asentaa lisäosilla esimerkiksi syntaksinväritys- ja debuggaustuen o
 ## Lisenssi
 
 
-- Visual Studio Coden lähdekoodilla [MIT-lisenssi](https://github.com/VSCodium/vscodium/blob/master/LICENSE)
-- Microsoftin jakaman ohjelmatiedoston (.exe, .app jne.) [lisenssi](https://code.visualstudio.com/License/) ei ole avoin
-    - Microsoftin Visual Studio Marketplacesta hankittujen lisäosien käyttö VSCodiumissa rikkoo periaatteessa lisenssiä
-    - Jotkin Microsoftin kehittämistä laajennuksista (esim. C#- ja C++\-lisäosien debuggeri) eivät toimi kuin Visual Studio Codessa.
-- VSCodiumin skripteillä tuotettu ohjelmatiedosto sen sijaan on lisensoitu MIT-lisenssillä
+### Visual Studio Coden lisenssi
 
-Note: This will only appear in the speaker notes window.
+- Lähdekoodilla [MIT-lisenssi](https://github.com/VSCodium/vscodium/blob/master/LICENSE)
+- Microsoftin jakaman ohjelmatiedoston (.exe, .app jne.) [lisenssi](https://code.visualstudio.com/License/) ei ole avoin.
+
+
+### Visual Studio Codiumin lisenssi
+
+- VSCodiumin lähdekoodilla ja ohjelmatiedostoilla (binääri) on [MIT-lisenssi](https://github.com/VSCodium/vscodium/blob/master/LICENSE)
+  - Microsoftin Visual Studio Marketplacesta hankittujen lisäosien käyttö VSCodiumissa rikkoo periaatteessa lisenssiä
+  - Jotkin Microsoftin kehittämistä laajennuksista (esim. C#- ja C++\-lisäosien debuggeri) eivät toimi kuin VSCodessa.
 
 
 
@@ -63,7 +70,6 @@ VSCodiumia ylläpitää yhteisö vapaaehtoisia kehittäjiä, jotka ovat listattu
 
 ## Osallistuminen projektiin
 
-### Contribution Model
 
 VSCodium-projekti noudattaa avointa ja yhteisöllistä osallistumismallia, jossa kuka tahansa voi ehdottaa muutoksia tai parannuksia projektin lähdekoodiin tai dokumentaatioon.
 
@@ -103,6 +109,7 @@ Language Server Protocol, [Microsoftin](https://microsoft.github.io/language-ser
 
 ## Asennus ja käyttöönotto
 
+
 [Kuinka valittu projekti saadaan toimimaan ja kuinka se käännetään lähdekoodista? Tarvittaessa lisää vaiheittaiset ohjeet.]
 - Jos haluat saddgtsd (jatkan  tätä lausetta kohta xd)
 
@@ -112,7 +119,7 @@ Language Server Protocol, [Microsoftin](https://microsoft.github.io/language-ser
 (tarviiks tähä alaselitykse tai jtn)
 
 
-**Asentaminen snapilla:**
+### Asentaminen snapilla
 
 VSCodium löytyy Snap Storesta Codium nimellä. Jos GNU/Linux jakelusi tukee snap:iä:
 
@@ -121,7 +128,8 @@ VSCodium löytyy Snap Storesta Codium nimellä. Jos GNU/Linux jakelusi tukee sna
 
 **Asentaminen Parrot OSlla:**
 
-VSCodium on valmiiksi asennettuna Parrot OSssa. Jos sitä ei jostain syystä ole valmiina, niin voit löytää sen virallisesta reposta:
+VSCodium on valmiiksi asennettuna [Parrot OS](https://example.com)ssa. 
+Jos sitä ei jostain syystä ole valmiina, niin voit löytää sen virallisesta reposta:
 
 ```sudo apt update && sudo apt install codium```
 
@@ -158,16 +166,30 @@ Jos käytät Mac OS C Mojativeä ja näet tekstin *App can't be opened because A
 
 
 
+## Lähteet
+
+
+Verkkolähteissä vierailtu 13.10.2023.
+
+- [VSCodiumin GitHub-sivu](https://github.com/VSCodium/vscodium/) 
+- [VSCodiumin kotisivu](https://vscodium.com/)
+- Microsoftin [Visual Studio Coden kotisivu](https://code.visualstudio.com/) ja dokumentaatio
+
+
+
 ## RevealJS käyttöohjeet
 
-Rivinvaihtojen määrällä on väliä: alaotsikoita vai uusia slideoita
+
+### Rivinvaihtojen määrällä on väliä
+
+Erottele diat kolmella rivinvaihdolla; pystysuorat diat kahdella rivinvaihdolla ja kappaleet yhdellä tyhjällä rivillä.
 
 
-## External 3.3 (Image)
+## External (Image)
 
 ![External Image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
 
 
-## External 3.4 (Math)
+## External (Math)
 
 `\[ J(\theta_0,\theta_1) = \sum_{i=0} \]`
