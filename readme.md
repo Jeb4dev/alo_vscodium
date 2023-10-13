@@ -124,6 +124,44 @@ VSCodium on valmiiksi asennettuna [Parrot OS](https://www.parrotsec.org/)ssa. Jo
 
 ```sudo apt update && sudo apt install codium```
 
+### Asentaminen NixOSlla
+
+VSCodium löytyy Nixpkgsistä. Voit asentaa sen lisäämällä ```vscodium```  ```environment.systemPackages```iin ```configuration.nix```iin tai lokaalisti:
+
+```nix-env -iA nixpkgs.vscodium```
+
+### Asemtaminen Arch Linuxilla
+
+VSCodium on saatavilla [AUR](https://aur.archlinux.org/packages/vscodium-bin)issa (Arch User Reposity) ja sen voi asentaa AUR Helperillä.
+
+- Aura:
+
+```sudo aura -A vscodium-bin```
+
+- Yay
+
+```yay -S vscodium-bin```
+
+### Asentaminen Debianilla/Ubuntulla
+
+Lisää GPG avain repoon:
+
+``````
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
+    | gpg --dearmor \
+    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+``````
+
+Lisää repo:
+``````
+echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
+    | sudo tee /etc/apt/sources.list.d/vscodium.list
+``````
+
+Päivitä ja asenna VSCodium:
+
+```sudo apt update && sudo apt install codium```
+
 
 ### Asentaminen Fedoralla / RHELilla / CentOSilla / RockyLinuxilla / OpenSUSElla (rpm paketti)
 
