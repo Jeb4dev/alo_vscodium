@@ -110,35 +110,71 @@ Language Server Protocol, [Microsoftin](https://microsoft.github.io/language-ser
 ## Asennus ja käyttöönotto
 
 
-[Kuinka valittu projekti saadaan toimimaan ja kuinka se käännetään lähdekoodista? Tarvittaessa lisää vaiheittaiset ohjeet.]
-- Jos haluat saddgtsd (jatkan  tätä lausetta kohta xd)
+VSCodiumin voi kääntää Microsoftin Visual Studio Code Repista myös halutessaan itse ([Microsoftin ohje](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run)). Se ei ole kuitenkaan tarpeellista.
 
 
-### Linux:
+### GNU/Linux
 
 (tarviiks tähä alaselitykse tai jtn)
 
 
 ### Asentaminen snapilla
 
-VSCodium löytyy Snap Storesta Codium nimellä. Jos GNU/Linux jakelusi tukee snap:iä:
+VSCodium löytyy [Snap Store](https://snapcraft.io/)sta [Codium](https://snapcraft.io/codium) nimellä. Jos GNU/Linux jakelusi tukee snap:iä:
 
 ```snap install codium --classic```
 
 
-**Asentaminen Parrot OSlla:**
+### Asentaminen Parrot OSlla 
 
-VSCodium on valmiiksi asennettuna [Parrot OS](https://example.com)ssa. 
-Jos sitä ei jostain syystä ole valmiina, niin voit löytää sen virallisesta reposta:
+VSCodium on valmiiksi asennettuna [Parrot OS](https://www.parrotsec.org/)ssa. Jos sitä ei jostain syystä ole valmiina, niin voit löytää sen virallisesta reposta:
 
 ```sudo apt update && sudo apt install codium```
 
-**miau**
+
+### Asentaminen Fedoralla / RHELilla / CentOSilla / RockyLinuxilla / OpenSUSElla (rpm paketti)
+
+Lisää GPG avain repoon:
+
+```sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg```
+
+Lisää repo:
+
+- Fedora/RHEL/CentOS/Rocky Linux:
+
+    ```printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo```
+
+- OpenSUSE/SUSE:
+
+    ```printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=gitlab.com_paulcarroty_vscodium_repo\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/zypp/repos.d/vscodium.repo```
+
+Asenna ohjelma: 
+
+- Fedora/RHEL/CentOS/Rocky Linux:
+
+    ```sudo dnf install codium```
+
+- OpenSUSE/SUSE:
+
+    ```sudo dnf install codium```
 
 
-### Mac:
+### Install on Gentopo / Funtoo Linux (ebuild)
 
-**Asentaminen Brewillä:**
+- Gentoo: 
+
+     ```sudo emerge -av vscodium-bin```
+
+- Funtoo:
+    ```sudo emerge -av vscodium```
+
+
+### miau
+
+
+### Mac
+
+#### Asentaminen Brewillä
 
 ```brew install --cask vscodium```
 
@@ -147,18 +183,16 @@ Jos käytät Mac OS C Mojativeä ja näet tekstin *App can't be opened because A
 
 ### Windows: 
 
-(tarviiks jonku ala otsakkeee hä???)
 
-
-**Asentaminen Windows Package Managerilla:**
+#### Asentaminen Windows Package Managerilla:
 
 ```winget install vscodium```
 
-**Asentaminen Chocolateylla:**
+#### Asentaminen Chocolateylla:
 
 ```choco install vscodium```
 
-**Asentaminen Scoopilla:**
+#### Asentaminen Scoopilla:
 
 ```scoop bucket add extras```
 
